@@ -3,7 +3,7 @@ version: '3.7'
 services:
   traefik:
     # The latest official supported Traefik docker image
-    image: traefik:v2.3
+    image: traefik:v2.4
     networks:
       - traefik
       - inbound

@@ -50,7 +50,7 @@ log:
 services:
   traefik:
     # The latest official supported Traefik docker image
-    image: traefik:v2.3
+    image: traefik:v2.4
     # Enables the Traefik Dashboard and tells Traefik to listen to docker
     # --providers tell Traefik to connect to the Docker provider
     # enable --log.level=INFO so we can see what Traefik is doing in the log files
@@ -71,7 +71,7 @@ services:
 services:
   traefik:
     # The latest official supported Traefik docker image
-    image: traefik:v2.3
+    image: traefik:v2.4
     # Enables the Traefik Dashboard and tells Traefik to listen to docker
     # --providers tell Traefik to connect to the Docker provider
     # enable --log.level=INFO so we can see what Traefik is doing in the log files
